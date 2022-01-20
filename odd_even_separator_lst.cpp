@@ -1,6 +1,6 @@
 #include "middle_list.h"
 
-void itc_odd_even_separator_lst(const vector <int> lst, vector <int> lst1, vector <int> lst2)
+void itc_odd_even_separator_lst(const vector <int>& lst, vector <int>& lst1, vector <int>& lst2)
 {
 	int i = 0, len = lst.size();
 	while (i < len)
