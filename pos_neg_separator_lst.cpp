@@ -1,6 +1,6 @@
 #include "middle_list.h"
 
-void itc_pos_neg_separator_lst(const vector <int>& lst, vector <int>& pol, vector <int>& nol, vector <int>& otr)
+void itc_pos_neg_separator_lst(const vector <int>& lst, vector <int>& otr, vector <int>& nol, vector <int>& pol)
 {
 	int i = 0, len = lst.size();
 	if (len == 0) { return; }
