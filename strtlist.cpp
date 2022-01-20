@@ -3,10 +3,12 @@
 vector <char> itc_strtlist(string str)
 {
 	int len = get_len_str(str), i = 0;
-	if (len < 1) { return {}; }
 	vector <char> out = {};
 	while (i < len) { out.push_back(str[i]); i++; }
-	return out;
+	if (out.size() != 0)
+	{
+		return out;
+	}
 }
 
 int get_len_str(string str)
