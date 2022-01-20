@@ -5,10 +5,7 @@ vector <char> itc_strtlist(string str)
 	int len = get_len_str(str), i = 0;
 	vector <char> out = {};
 	while (i < len) { out.push_back(str[i]); i++; }
-	if (out.size() != 0)
-	{
-		return out;
-	}
+	return out;
 }
 
 int get_len_str(string str)
