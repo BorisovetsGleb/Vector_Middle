@@ -19,9 +19,9 @@ void itc_pos_neg_separator_lst(const vector <int>& lst, vector <int>& pol, vecto
 		}
 		i++;
 	}
-	/*out_vect_int(otr);
+	out_vect_int(otr);
 	cout << ", ";
 	out_vect_int(nol);
 	cout << ", ";
-	out_vect_int(pol);*/
+	out_vect_int(pol);
 }
