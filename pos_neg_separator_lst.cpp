@@ -3,6 +3,7 @@
 void itc_pos_neg_separator_lst(const vector <int>& lst, vector <int>& pol, vector <int>& nol, vector <int>& otr)
 {
 	int i = 0, len = lst.size();
+	if (len == 0) { return; }
 	while (i < len)
 	{
 		if (lst[i] == 0)
@@ -19,9 +20,4 @@ void itc_pos_neg_separator_lst(const vector <int>& lst, vector <int>& pol, vecto
 		}
 		i++;
 	}
-	out_vect_int(otr);
-	cout << ", ";
-	out_vect_int(nol);
-	cout << ", ";
-	out_vect_int(pol);
 }
